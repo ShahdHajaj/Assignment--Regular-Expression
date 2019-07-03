@@ -88,7 +88,7 @@ public class RegularExpression {
             System.out.println("Matched interfaces are " + interfaceCount);
             int i = 0;
             for (Map mapf : maps) {
-                System.out.println("Interface #" + i);
+                System.out.println("Interface #" + (i+1));
                 System.out.print("\tName: " + mapf.get("Name") + "\n");
                 if (mapf.get("IP_Address") == null) {
                     System.out.print("\tIp Address: " + "\n");
